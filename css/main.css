@@ -230,3 +230,7 @@ padding: 0 50px 40px;
     padding-bottom: 35px;
     text-align: center;
 }
+.proyects-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
