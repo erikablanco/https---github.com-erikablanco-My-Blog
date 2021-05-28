@@ -10,4 +10,20 @@
        grid-column: 1;
        grid-row: 3;
    }
+   .blogs-posts-conatiner .post-container{
+       max-width: 45%;
+   }
+   .proyects.main-container .post-container{
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 2fr;
+   }
+   .profile-main-container .profile-container{
+       display: block;
+   }
+}
+
+@media(max-width: 600px){
+    .blogs-posts-conatiner .post-container{
+        max-width: 95%;
+    }
 }
